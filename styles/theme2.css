@@ -1,0 +1,24 @@
+body{
+  background-color: #daeded;
+  font-family: monospace;
+  color: #6e4a77;
+
+}
+
+h1{
+  padding: 10px;
+}
+
+h3{
+  padding: 5px;
+}
+
+p{
+  font-weight: bolder;
+  padding: 10px;
+}
+
+ul{
+  padding: 25px;
+  color: black;
+}

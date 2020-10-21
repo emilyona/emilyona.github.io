@@ -1,0 +1,63 @@
+  body{
+    background-color: black;
+    font-family: serif;
+    color: white;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  nav ul li{
+    background-color: white;
+    display: inline-block;
+    padding:5px 10px;
+    margin: 0px 10px;
+    color: black;
+  }
+
+  nav ul li:hover{
+    background-color: darkgrey;
+  }
+
+  .active-tab{
+    font-weight: bold;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .photo{
+    flex-grow: 1
+  }
+
+  .description{
+    flex-grow: 1
+  }
+
+  h3{
+    font-weight: lighter;
+    padding:15px;
+  }
+
+  p{
+   padding:0;
+  }
+
+  h1{
+    margin-bottom: 0;
+    font-size: 45px;
+  }
+
+  img{
+    padding: 10px 0;
+  }
+
+  .project{
+    padding: 10px 0;
+  }
+
+  .list-no-bullets ul{
+    padding:0;
+  }
